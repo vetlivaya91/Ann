@@ -1,0 +1,6 @@
+x = int(input())
+h = int(input())
+m = int(input())
+wakeup_time = h * 60 + m + x
+print(wakeup_time // 60)
+print(wakeup_time % 60)
